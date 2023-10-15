@@ -1,0 +1,70 @@
+@media(max-width:1024px){
+    .order { padding: 7px 5px; }
+    .form-box { width: 70%; }
+}
+
+
+@media(max-width:768px){
+    .hide_dsk{ display: block;}
+    .hide_mb{display: none}
+    .banner-phone{ position: static; width: 50%; margin: 10px auto 35px auto; }
+    .banner-content{ text-align: center; padding-bottom: 50px; }
+    .navbar-toggler{ padding: 0;border: none;}
+    .navbar-toggler i{ color: #fff; padding: 0;font-size: 30px;}
+    .height { flex-direction: column-reverse}
+    .navbar-nav{ text-align: center; margin-top: 20px;}
+    .nav-link{display: inline;margin: 6px 0;}
+    .nav-item{margin-top: 20px; }
+    .feature-content { margin-top: 30px; }
+    .phone-2{width: 60%;margin: 0 auto 30px;}
+    .beauti-section { padding: 0 0 45px 0;}
+    .about-section { padding:  0;}
+    .client{ display: flex;justify-content: center;}
+    .eye-section .align{text-align: center !important; margin-top: 20px;}
+    .price-table {margin-top: 20px;}
+    .order{ margin: 0 22%;}
+    .contact-section {padding-bottom: 420px;}
+    .contact-with{width: 33%;}
+}
+
+@media(max-width:575px){
+    .feature-section {padding: 80px 0px 0px 0px;}
+    .feature-content{margin-bottom: 17px;}
+    .about-section h6 {margin-top: 0px;}
+    .slider-item p{text-align: center;}
+    .client{display: flex;justify-content: center;}
+    .eye-section h2{text-align: center;margin-bottom: 35px;}
+    .align{text-align: center !important;}
+    .price-table{margin-bottom: 25px;}
+    .price-table p { font-size: 20px;}
+    .contact-section {padding-bottom: 430px;}
+    .form-box {padding: 50px 30px; width: 85%;}
+    .map iframe{display: block; height: 280px;}
+    .contact-with{width:100%;}
+}
+
+
+@media(max-width:375px){
+    .banner-content h1 {font-size: 30px;}
+    .banner-content p {margin-right: 0;}
+    .banner-content .btn_download{margin: 0 0 30px 0;}
+    .phone-2{width: 65%;}
+    .eye-section .btn-all {margin:0;}
+    .heading_two h2 {
+        font-size: 26px;
+    }
+    .about-section h6 {
+        margin-top: 24px;
+        text-align: center;
+    }
+}
+
+@media(max-width:320px){
+    .banner-phone {width: 55%; margin: 5px auto 35px auto;}
+    .banner-content h1 {font-size: 25px;}
+    .banner-content  .btn_download:last-child{margin-left: 0;}
+    .eye-section .btn-all {margin: 0 0 30px 0;}
+    .eye-section .mob{margin: 0}
+    .form-box {padding: 25px 22px; width: 89%;}
+    .map iframe{display: block; height: 200px;}
+}
